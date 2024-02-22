@@ -1,0 +1,369 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ActivityParty_LogicalName" xml:space="preserve">
+    <value>activityparty</value>
+  </data>
+  <data name="ActivityParty_PartyId" xml:space="preserve">
+    <value>partyid</value>
+  </data>
+  <data name="CaseSubCategory_Id" xml:space="preserve">
+    <value>frb_casesubcategoryid</value>
+  </data>
+  <data name="CaseSubCategory_LinkId" xml:space="preserve">
+    <value>frb_casesubcategoriesid</value>
+  </data>
+  <data name="CaseSubCategory_LogicalName" xml:space="preserve">
+    <value>frb_casesubcategory</value>
+  </data>
+  <data name="Case_ApprovedAmount" xml:space="preserve">
+    <value>frb_approvedamount</value>
+  </data>
+  <data name="Case_CaseCategory" xml:space="preserve">
+    <value>frb_casecategory</value>
+  </data>
+  <data name="Case_CaseNumber" xml:space="preserve">
+    <value>ticketnumber</value>
+  </data>
+  <data name="Case_CaseSubCategory" xml:space="preserve">
+    <value>frb_casesubcategory</value>
+  </data>
+  <data name="Case_CaseType" xml:space="preserve">
+    <value>casetypecode</value>
+  </data>
+  <data name="Case_Customer" xml:space="preserve">
+    <value>customerid</value>
+  </data>
+  <data name="Case_LogicalName" xml:space="preserve">
+    <value>incident</value>
+  </data>
+  <data name="Case_Owner" xml:space="preserve">
+    <value>ownerid</value>
+  </data>
+  <data name="Case_RequestAmount" xml:space="preserve">
+    <value>frb_requestamount</value>
+  </data>
+  <data name="Case_Symbol" xml:space="preserve">
+    <value>frb_symbol</value>
+  </data>
+  <data name="CreateOn" xml:space="preserve">
+    <value>createdon</value>
+  </data>
+  <data name="MarginLoan_ApprovedAmount" xml:space="preserve">
+    <value>frb_approvedamount</value>
+  </data>
+  <data name="MarginLoan_Case" xml:space="preserve">
+    <value>frb_incidentid</value>
+  </data>
+  <data name="MarginLoan_LogicalName" xml:space="preserve">
+    <value>frb_marginloan</value>
+  </data>
+  <data name="MarginLoan_RequestAmount" xml:space="preserve">
+    <value>frb_requestamount</value>
+  </data>
+  <data name="MarginLoan_Symbol" xml:space="preserve">
+    <value>frb_symbolname</value>
+  </data>
+  <data name="SlaCategory_Activation1" xml:space="preserve">
+    <value>frb_sla_activation_1</value>
+  </data>
+  <data name="SlaCategory_Activation2" xml:space="preserve">
+    <value>frb_sla_activation_2</value>
+  </data>
+  <data name="SlaCategory_Activation3" xml:space="preserve">
+    <value>frb_sla_activation_3</value>
+  </data>
+  <data name="SlaCategory_Duration1" xml:space="preserve">
+    <value>frb_duration1</value>
+  </data>
+  <data name="SlaCategory_Duration2" xml:space="preserve">
+    <value>frb_duration2</value>
+  </data>
+  <data name="SlaCategory_Duration3" xml:space="preserve">
+    <value>frb_duration3</value>
+  </data>
+  <data name="SlaCategory_LogicalName" xml:space="preserve">
+    <value>frb_slacategory</value>
+  </data>
+  <data name="SmsTemplates_LogicalName" xml:space="preserve">
+    <value>frb_smstemplate</value>
+  </data>
+  <data name="SmsTemplates_Name" xml:space="preserve">
+    <value>frb_name</value>
+  </data>
+  <data name="SmsTemplates_Text" xml:space="preserve">
+    <value>frb_smstemplatebody</value>
+  </data>
+  <data name="Sms_Description" xml:space="preserve">
+    <value>description</value>
+  </data>
+  <data name="Sms_LogicalName" xml:space="preserve">
+    <value>frb_sms</value>
+  </data>
+  <data name="Sms_Regarding" xml:space="preserve">
+    <value>regardingobjectid</value>
+  </data>
+  <data name="Sms_SmsTemplate" xml:space="preserve">
+    <value>frb_template</value>
+  </data>
+  <data name="Sms_Subject" xml:space="preserve">
+    <value>subject</value>
+  </data>
+  <data name="SMS_To" xml:space="preserve">
+    <value>to</value>
+  </data>
+  <data name="StatusReason" xml:space="preserve">
+    <value>statuscode</value>
+  </data>
+  <data name="String1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="SystemUser_LogicalName" xml:space="preserve">
+    <value>systemuser</value>
+  </data>
+  <data name="Target" xml:space="preserve">
+    <value>Target</value>
+  </data>
+  <data name="TaskManager_CaseCategory" xml:space="preserve">
+    <value>frb_casecategory</value>
+  </data>
+  <data name="TaskManager_CaseSubCategory" xml:space="preserve">
+    <value>frb_casesubcategory</value>
+  </data>
+  <data name="TaskManager_FirstStep" xml:space="preserve">
+    <value>frb_firsttaskstep</value>
+  </data>
+  <data name="TaskManager_Id" xml:space="preserve">
+    <value>frb_taskmanagerid</value>
+  </data>
+  <data name="TaskManager_LogicalName" xml:space="preserve">
+    <value>frb_taskmanager</value>
+  </data>
+  <data name="TaskStep_CompletedMessage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TaskStep_CompletedStep" xml:space="preserve">
+    <value>frb_completedstep</value>
+  </data>
+  <data name="TaskStep_CompletedTeam" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TaskStep_CompleteStatus" xml:space="preserve">
+    <value>frb_completestatus</value>
+  </data>
+  <data name="TaskStep_DueDate" xml:space="preserve">
+    <value>frb_duedate</value>
+  </data>
+  <data name="TaskStep_LogicalName" xml:space="preserve">
+    <value>frb_taskstep</value>
+  </data>
+  <data name="TaskStep_Message" xml:space="preserve">
+    <value>frb_message</value>
+  </data>
+  <data name="TaskStep_Order" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TaskStep_ProsseccDuration" xml:space="preserve">
+    <value>frb_prosseccduration</value>
+  </data>
+  <data name="TaskStep_RegardingStatus" xml:space="preserve">
+    <value>frb_regardingstate</value>
+  </data>
+  <data name="TaskStep_RegardingStatusReason" xml:space="preserve">
+    <value>frb_regardingstatusreason</value>
+  </data>
+  <data name="TaskStep_RejectedMessage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TaskStep_RejectedStep" xml:space="preserve">
+    <value>frb_rejectedstep</value>
+  </data>
+  <data name="TaskStep_RejectedTeam" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TaskStep_RejectStatus" xml:space="preserve">
+    <value>frb_rejectstatus</value>
+  </data>
+  <data name="TaskStep_RejectStatusReason" xml:space="preserve">
+    <value>frb_rejectstatusreason</value>
+  </data>
+  <data name="TaskStep_SendSmsToUser" xml:space="preserve">
+    <value>frb_sendsmstouser</value>
+  </data>
+  <data name="TaskStep_SlaCategory" xml:space="preserve">
+    <value>frb_slacategoryid</value>
+  </data>
+  <data name="TaskStep_SmsTemplate" xml:space="preserve">
+    <value>frb_smstemplate</value>
+  </data>
+  <data name="TaskStep_TaskManager" xml:space="preserve">
+    <value>frb_taskmanager</value>
+  </data>
+  <data name="TaskStep_Team" xml:space="preserve">
+    <value>frb_team</value>
+  </data>
+  <data name="TaskStep_User" xml:space="preserve">
+    <value>frb_user</value>
+  </data>
+  <data name="TaskStep_UserSmsTemplate" xml:space="preserve">
+    <value>frb_usersmstemplate</value>
+  </data>
+  <data name="Task_Deadline" xml:space="preserve">
+    <value>frb_deadline</value>
+  </data>
+  <data name="Task_Deadline1" xml:space="preserve">
+    <value>frb_taskdeadline1</value>
+  </data>
+  <data name="Task_Deadline2" xml:space="preserve">
+    <value>frb_taskdeadline2</value>
+  </data>
+  <data name="Task_Deadline3" xml:space="preserve">
+    <value>frb_taskdeadline3</value>
+  </data>
+  <data name="Task_Duration" xml:space="preserve">
+    <value>actualdurationminutes</value>
+  </data>
+  <data name="Task_LogicalName" xml:space="preserve">
+    <value>task</value>
+  </data>
+  <data name="Task_Owner" xml:space="preserve">
+    <value>ownerid</value>
+  </data>
+  <data name="Task_Regarding" xml:space="preserve">
+    <value>regardingobjectid</value>
+  </data>
+  <data name="Task_SlaCategory" xml:space="preserve">
+    <value>frb_slacategoryid</value>
+  </data>
+  <data name="Task_Status" xml:space="preserve">
+    <value>statecode</value>
+  </data>
+  <data name="Task_Subject" xml:space="preserve">
+    <value>subject</value>
+  </data>
+  <data name="Task_TaskStep" xml:space="preserve">
+    <value>frb_taskstep</value>
+  </data>
+  <data name="Team_LogicalName" xml:space="preserve">
+    <value>team</value>
+  </data>
+  <data name="TeskStep_CompleteStatusReason" xml:space="preserve">
+    <value>frb_completestatusreason</value>
+  </data>
+</root>
